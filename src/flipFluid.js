@@ -280,7 +280,7 @@ export class FlipFluid {
       } else if (this.cellType[i] === FLUID_CELL) {
         let d = this.particleDensity[i];
         if (this.particleRestDensity > 0.0) d /= this.particleRestDensity;
-        this.setSciColor(i, d, 1.5, 0.0);
+        this.setSciColor(i, d, 1.0, 0.0);
       }
     }
   }
